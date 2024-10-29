@@ -1,0 +1,1380 @@
+/*************************** start of  smaller screen*******************/
+
+
+
+@media only screen and (max-width: 918px) {
+
+  /*** HOME PAGE START ***/
+  .home-page {
+    width: 100%;
+  }
+
+  .home-page {
+    width: 100%;
+  }
+
+  .home-page .hero {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .home-page .hero .row1 {
+    width: 100%;
+    /* height: 500px; */
+    /* padding-left: 70px; */
+    /* padding-top: 50px; */
+    padding: 10px 20px;
+    position: relative;
+    /* background-color: grey; */
+  }
+  .home-page .hero .row2 {
+    width: 100%;
+    /* height: 250px; */
+    background-color: ;
+    position: relative;
+  }
+
+  .home-page .hero .row3 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(249, 249, 249);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+    display: none;
+  }
+
+  .home-page .hero .row4 {
+    width: 100%;
+
+    background-color: ;
+    position: relative;
+  }
+
+  .home-page .hero .row1 .title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .home-page .hero .row1 .sub-title {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .home-page .hero .row1 .btns-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 25px;
+  }
+
+  .home-page .hero .row1 .btns-container img {
+    /* width: 200px;
+    height: auto; */
+    /* background-color: #111; */
+    /* margin-right: 20px; */
+    /* border-radius: 10px; */
+  }
+
+  .home-page .hero .row1 .btns-container .playstore {
+    width: 130px;
+    height: auto;
+    margin-right: 10px;
+    position: relative;
+    top: -30px;
+  }
+
+  .home-page .hero .row1 .btns-container .apple {
+    width: 130px;
+    height: auto;
+    /* margin-right: 20px; */
+    position: relative;
+    top: -22px;
+  }
+
+  .home-page .hero .row4 .hero-img {
+    position: relative;
+    right: 0%;
+    top: 0%;
+    width: 100%;
+    height: auto;
+  }
+
+  .home-page .our-services {
+    position: relative;
+    width: 100%;
+
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    overflow-x: hidden;
+  }
+
+  .home-page .our-services .section-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #04025a;
+    background-color: rgb(249, 249, 249);
+  }
+
+  .home-page .our-services .top {
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    /* height: 800px; */
+  }
+
+  .home-page .our-services .top .box {
+    width: 90%;
+    min-height: 280px;
+    /* max-height: 320px; */
+    /* margin-right: 30px; */
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .home-page .our-services .top .box .title {
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    color: rgb(240, 91, 74);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .home-page .our-services .top .box .icon-container {
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-page .our-services .top .box .icon-container .icon1 {
+    width: 110px;
+    height: 110px;
+  }
+  .home-page .our-services .top .box .icon-container .icon2 {
+    width: 110px;
+    height: 110px;
+  }
+  .home-page .our-services .top .box .icon-container .icon3 {
+    width: 110px;
+    height: 110px;
+  }
+  .home-page .our-services .top .box .description {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(119, 112, 112);
+  }
+
+  .home-page .our-services .bottom {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .home-page .our-services .b2{
+    flex-direction: column-reverse;
+  }
+
+  .home-page .our-services .bottom .row1 {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .home-page .our-services .bottom .row1 img {
+    width: 90%;
+    height: auto;
+  }
+  .home-page .our-services .bottom .row2 {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .home-page .our-services .bottom .row2 .title {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #06052c;
+  }
+
+  .home-page .our-services .bottom .row2 .description {
+    width: 100%;
+    font-size: 15px;
+    color: rgb(119, 112, 112);
+  }
+
+  .home-page .our-services .background-image {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: auto;
+  }
+
+  .home-page .why-errand {
+    position: relative;
+    width: 100%;
+    /* background-color: green; */
+    padding: 10px 10px;
+    overflow-x: hidden;
+  }
+
+  .home-page .why-errand .section-title {
+    position: relative;
+    width: 100%;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: #06052c;
+    background-color: white;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .home-page .why-errand .box-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .home-page .why-errand .box-container .box {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 20px;
+  }
+
+  .home-page .why-errand .box-container .box.reverse {
+    /* flex-flow: row wrap-reverse; */
+  }
+
+  .home-page .why-errand .box-container .box .number-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .home-page .why-errand .box-container .box .number-container .number {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    border: none;
+    background-color: #04025a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .home-page .why-errand .box-container .box .icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .home-page .why-errand .box-container .box .icon-container .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .home-page .why-errand .box-container .box .content-container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .home-page .why-errand .box-container .box .content-container .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .home-page .why-errand .box-container .box .content-container .description {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .home-page .why-errand .invest-container {
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .home-page .why-errand .invest-container .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #04025a;
+    font-weight: bold;
+  }
+
+  .home-page .why-errand .invest-container .sub-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #04025a;
+    margin-top: 10px;
+  }
+
+  .home-page .why-errand .invest-container .background-image {
+    position: absolute;
+    left: 10%;
+    top: -70%;
+    width: 80%;
+    height: auto;
+  }
+
+  .home-page .why-errand .invest-container .steps-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box {
+    width: 90%;
+
+    /* margin-right: 50px; */
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box.box1 {
+    margin-top: 10px;
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box.box2 {
+    margin-top: 20px;
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box.box3 {
+    margin-top: 20px;
+  }
+  .home-page .why-errand .invest-container .steps-container .step-box .row1 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(240, 91, 74);
+  }
+  .home-page .why-errand .invest-container .steps-container .step-box .row2 {
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #04025a;
+    border-radius: 15px;
+    padding: 20px 40px;
+    line-height: 50px;
+  }
+
+  .home-page .why-errand .invest-container .invest-btn-container {
+    position: relative;
+    width: 100%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .home-page .why-errand .invest-container .invest-btn-container .invest-btn {
+    padding: 5px 10px;
+    border: 2px solid #04025a;
+    color: #04025a;
+    font-size: 17px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  /*** HOME PAGE END ***/
+
+  /*** DRIVE PAGE START ***/
+  .drive-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .drive-page .hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+
+  .drive-page .hero .hero-background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    object-fit: cover;
+  }
+
+  .drive-page .hero .hero-background-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+  }
+
+  .drive-page .hero .hero-overlay {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    z-index: 300;
+  }
+
+  .drive-page .hero .hero-overlay .logo-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    text-decoration: none;
+  }
+
+  .drive-page .hero .hero-overlay .invest-btn {
+    padding: 7px 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.808);
+    color: rgba(255, 255, 255, 0.877);
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+  }
+
+  .drive-page .hero .hero-overlay .title {
+    width: 100%;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .drive-page .hero .hero-overlay .sub-title {
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .drive-page .hero .hero-overlay .download-app-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .drive-page .hero .hero-overlay .download-app-container .download-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 91, 74);
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .drive-page .why-ogabike {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .drive-page .why-ogabike .section-title {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .drive-page .why-ogabike .box-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .drive-page .why-ogabike .box-container .box {
+    width: 90%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .drive-page .why-ogabike .box-container .box .icon-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .drive-page .why-ogabike .box-container .box .icon-container i {
+    font-size: 40px;
+    color: rgb(240, 91, 74);
+  }
+
+  .drive-page .why-ogabike .box-container .box .title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+  }
+
+  .drive-page .why-ogabike .box-container .box .description {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px 15px;
+  }
+
+  .drive-page .why-ogabike .horizontal-line {
+    width: 50%;
+    margin: auto;
+    background-color: #eee;
+    height: 2px;
+  }
+
+  .drive-page .howitworks {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    /* background-color: green; */
+    padding-bottom: 50px;
+  }
+
+  .drive-page .howitworks .section-title {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .drive-page .howitworks .box-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .drive-page .howitworks .box-container .box {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .drive-page .howitworks .box-container .box .title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .drive-page .howitworks .box-container .box .img-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .drive-page .howitworks .box-container .box .img-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    /* object-fit: cover; */
+    border: 1px solid #000;
+  }
+
+  .drive-page .faq {
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .drive-page .faq .faq-container {
+    width: 95%;
+    border: 1.5px solid #eee;
+
+    margin: auto;
+  }
+
+  .drive-page .faq .faq-container .section-title {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .drive-page .faq .faq-container .question-answer-container {
+    width: 100%;
+    padding: 10px 30px;
+  }
+
+  .drive-page .faq .faq-container .question-answer-container .question {
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+  }
+  .drive-page .faq .faq-container .question-answer-container .answer {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .drive-page .download-app-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .drive-page .download-app-container .download-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 91, 74);
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  /*** DRIVE PAGE END ***/
+
+
+  
+  
+}
+
+/** ********************end of smaller screen********************** **/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/** *******************start of bigger screen************************/
+@media only screen and (min-width: 918px) {
+  /*** HOME PAGE START ***/
+  .home-page {
+    width: 100%;
+  }
+
+  .home-page .hero {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .home-page .hero .row1 {
+    width: 50%;
+    height: 500px;
+    padding-left: 70px;
+    padding-top: 50px;
+    position: relative;
+    /* background-color: grey; */
+  }
+  .home-page .hero .row2 {
+    width: 50%;
+    height: 500px;
+    background-color: ;
+    position: relative;
+  }
+
+  .home-page .hero .row3 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(249, 249, 249);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .home-page .hero .row4 {
+    width: 100%;
+    background-color: ;
+    position: relative;
+  }
+
+  .home-page .hero .row1 .title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .home-page .hero .row1 .sub-title {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .home-page .hero .row1 .btns-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 25px;
+  }
+
+  .home-page .hero .row1 .btns-container img {
+    /* width: 200px;
+    height: auto; */
+    /* background-color: #111; */
+    /* margin-right: 20px; */
+    /* border-radius: 10px; */
+  }
+
+  .home-page .hero .row1 .btns-container .playstore {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    position: relative;
+    top: -30px;
+  }
+
+  .home-page .hero .row1 .btns-container .apple {
+    width: 200px;
+    height: auto;
+    /* margin-right: 20px; */
+    position: relative;
+    top: -17px;
+  }
+
+  .home-page .hero .row4 .hero-img {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 60%;
+    height: auto;
+  }
+  .home-page .our-services {
+    position: relative;
+    width: 100%;
+
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .home-page .our-services .section-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #04025a;
+    background-color: rgb(249, 249, 249);
+  }
+
+  .home-page .our-services .top {
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    /* height: 800px; */
+  }
+
+  .home-page .our-services .top .box {
+    width: 250px;
+    min-height: 280px;
+    /* max-height: 320px; */
+    margin-right: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding-bottom: 15px;
+  }
+
+  .home-page .our-services .top .box .title {
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    color: #d8783e;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .home-page .our-services .top .box .icon-container {
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-page .our-services .top .box .icon-container .icon1 {
+    width: 110px;
+    height: 110px;
+  }
+  .home-page .our-services .top .box .icon-container .icon2 {
+    width: 110px;
+    height: 110px;
+  }
+  .home-page .our-services .top .box .icon-container .icon3 {
+    width: 110px;
+    height: 110px;
+  }
+  .home-page .our-services .top .box .description {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(119, 112, 112);
+  }
+
+  .home-page .our-services .bottom {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .home-page .our-services .bottom .row1 {
+    width: 40%;
+  }
+
+  .home-page .our-services .bottom .row1 img {
+    width: 80%;
+    height: auto;
+  }
+  .home-page .our-services .bottom .row2 {
+    width: 35%;
+  }
+
+  /* .home-page .our-services .bottom .r2 {
+    width: 40%;
+  } */
+
+  .home-page .our-services .bottom .row2 .title {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d8783e;
+  }
+
+  .home-page .our-services .bottom .row2 .description {
+    width: 100%;
+    font-size: 15px;
+    color: rgb(119, 112, 112);
+  }
+
+  .home-page .our-services .background-image {
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    width: 50%;
+    height: auto;
+  }
+
+  .home-page .why-errand {
+    position: relative;
+    width: 100%;
+    /* background-color: green; */
+    padding: 10px 50px;
+  }
+
+  .home-page .why-errand .section-title {
+    position: relative;
+    width: 100%;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #d8783e;
+    background-color: white;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .home-page .why-errand .box-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .home-page .why-errand .box-container .box {
+    width: 25%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 20px;
+  }
+
+  .home-page .why-errand .box-container .box.reverse {
+    flex-flow: row wrap-reverse;
+  }
+
+  .home-page .why-errand .box-container .box .number-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .home-page .why-errand .box-container .box .number-container .number {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    border: none;
+    background-color: #d8783e;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .home-page .why-errand .box-container .box .icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .home-page .why-errand .box-container .box .icon-container .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .home-page .why-errand .box-container .box .content-container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .home-page .why-errand .box-container .box .content-container .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #d8783e;
+  }
+
+  .home-page .why-errand .box-container .box .content-container .description {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .home-page .why-errand .invest-container {
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .home-page .why-errand .invest-container .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #d8783e;
+    font-weight: bold;
+  }
+
+  .home-page .why-errand .invest-container .sub-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #04025a;
+    margin-top: 10px;
+  }
+
+  .home-page .why-errand .invest-container .background-image {
+    position: absolute;
+    left: 10%;
+    top: -70%;
+    width: 80%;
+    height: auto;
+  }
+
+  .home-page .why-errand .invest-container .steps-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box {
+    width: 25%;
+
+    margin-right: 50px;
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box.box1 {
+    margin-top: 10px;
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box.box2 {
+    margin-top: 90px;
+  }
+
+  .home-page .why-errand .invest-container .steps-container .step-box.box3 {
+    margin-top: 150px;
+  }
+  .home-page .why-errand .invest-container .steps-container .step-box .row1 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d8783e;
+  }
+  .home-page .why-errand .invest-container .steps-container .step-box .row2 {
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #d8783e;
+    padding: 20px 40px;
+    line-height: 50px;
+  }
+
+  .home-page .why-errand .invest-container .invest-btn-container {
+    position: relative;
+    width: 100%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .home-page .why-errand .invest-container .invest-btn-container .invest-btn {
+    padding: 5px 10px;
+    border: 2px solid #d8783e;
+    color: #04025a;
+    font-size: 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*** HOME PAGE END ***/
+
+  /*** DRIVE PAGE START ***/
+  .drive-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .drive-page .hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+
+  .drive-page .hero .hero-background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    object-fit: cover;
+  }
+
+  .drive-page .hero .hero-background-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+  }
+
+  .drive-page .hero .hero-overlay {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    z-index: 300;
+  }
+
+  .drive-page .hero .hero-overlay .logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    text-decoration: none;
+  }
+
+  .drive-page .hero .hero-overlay .invest-btn {
+    padding: 7px 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.808);
+    color: rgba(255, 255, 255, 0.877);
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+  }
+
+  .drive-page .hero .hero-overlay .title {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .drive-page .hero .hero-overlay .sub-title {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .drive-page .hero .hero-overlay .download-app-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .drive-page .hero .hero-overlay .download-app-container .download-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8783e;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .drive-page .why-ogabike {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .drive-page .why-ogabike .section-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .drive-page .why-ogabike .box-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  .drive-page .why-ogabike .box-container .box {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+  }
+
+  .drive-page .why-ogabike .box-container .box .icon-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .drive-page .why-ogabike .box-container .box .icon-container i {
+    font-size: 40px;
+    color: rgb(240, 91, 74);
+  }
+
+  .drive-page .why-ogabike .box-container .box .title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+  }
+
+  .drive-page .why-ogabike .horizontal-line {
+    width: 50%;
+    margin: auto;
+    background-color: #eee;
+    height: 2px;
+  }
+
+  .drive-page .why-ogabike .box-container .box .description {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .drive-page .howitworks {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    /* background-color: green; */
+    padding-bottom: 50px;
+  }
+
+  .drive-page .howitworks .section-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #d8783e;
+  }
+
+  .drive-page .howitworks .box-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  .drive-page .howitworks .box-container .box {
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+  }
+
+  .drive-page .howitworks .box-container .box .title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .drive-page .howitworks .box-container .box .img-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .drive-page .howitworks .box-container .box .img-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 1px solid #000;
+    object-fit: contain;
+
+  }
+
+  .drive-page .faq {
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .drive-page .faq .faq-container {
+    width: 70%;
+    border: 1.5px solid #eee;
+
+    margin: auto;
+  }
+
+  .drive-page .faq .faq-container .section-title {
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #d8783e;
+  }
+
+  .drive-page .faq .faq-container .question-answer-container {
+    width: 100%;
+    padding: 10px 60px;
+  }
+
+  .drive-page .faq .faq-container .question-answer-container .question {
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+  }
+  .drive-page .faq .faq-container .question-answer-container .answer {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .drive-page .download-app-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .drive-page .download-app-container .download-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8783e;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  /*** DRIVE PAGE END ***/
+}
+
+/** **************end of bigger screen************************ **/
+.centered-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+button,
+input,
+textarea {
+  outline: none !important;
+}
